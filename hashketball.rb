@@ -134,6 +134,7 @@ def num_points_scored(name)
           player_string = player.to_s
         if player_string = name
           point = game_hash[location][attributes][player][:points]
+          binding.pry
         end
       end
     end
